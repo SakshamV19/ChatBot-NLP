@@ -1,0 +1,87 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey there",
+        "How are you",
+        "Hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hello there, is there anything I can help you with?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What can you do?",
+        "What are your skills?",
+        "What are your capabilities?",
+        "Can you help me with something?"
+      ],
+      "responses": [
+        "I can help you with basic queries, and a few factual questions",
+        "I'm here to assist you with simple inquiries and provide answers to some factual questions.",
+        "I'm available to help with basic queries and provide information on certain factual matters.",
+        "My role is to support you with straightforward questions and offer responses to factual inquiries."
+      ]
+    },
+    {
+      "tag": "general",
+      "patterns": [
+        "Tell me about yourself.",
+        "Who are you?",
+        "Give a description of yourself."
+      ],
+      "responses": [
+        "My name is C.H.I.M.E. It stands for Communicative Helper for Information and Messaging Exchanges. I am an AI program created using Python."
+      ]
+    },
+    {
+      "tag": "electronics",
+      "patterns": ["Can you recommend a good electronic device for me?",
+       "What electronic appliance should I buy", 
+       "Any ideas for electric appliances?"
+      ],
+      "responses": [
+        "You should go for a Washing Machine. It can help you clean all your clothes.",
+        "You can buy a microwave. It can help you reheat food",
+        "An electronic stove would be a great choice! You can cook anywhere without relying on CNG."
+      ]
+    }
+    ,
+    {
+      "tag": "streaming",
+      "patterns": [
+        "Any good shows you can recommmend?",
+        "What are some good series or sitcoms I can watch?",
+        "I am thinking of watching a new show. Any Ideas?",
+        "Any interesting shows I can watch?"
+      ],
+      "responses": [
+        "If you are interested in anime, You can watch One Piece or Code Geass. They are very exciting, and have a cool storyline.",
+        "You can watch F.R.I.E.N.D.S or The Big Bang Theory. They are sitcoms, and are absolutely eye-catching and hilarious.",
+        "Modern Family and Brooklyn 99 are cool shows with an interesting plot. Maybe you should go for that."
+      ]
+    }
+  ]
+}
